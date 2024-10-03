@@ -1,0 +1,60 @@
+
+#containerMap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    width: 100vw;
+}
+#ynot{
+    height: 100vh;
+
+    overflow: hidden;
+}
+#map {
+    flex: 1;
+    position: relative;
+    height: 80vh;
+}
+#myChart{
+    height: 15vh;
+    width: 98vw !important;
+}
+
+#c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    z-index: 100000;
+    background-color: #333;
+}
+
+#bar1 {
+    width: 98vw;
+    background-color: #333;
+    z-index: 1000000;
+
+}
+
+#yearInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#range {
+    width: 100%;
+}
+
+
+
+
+
+.ts2 {
+    width: 100%;
+    height: 100%;
+
+}
+

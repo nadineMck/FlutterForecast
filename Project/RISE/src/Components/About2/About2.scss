@@ -1,0 +1,35 @@
+#stickyDiv{
+  margin-top: 20%;
+  color :#9CDBA6;
+  position: sticky;
+  vertical-align:middle;
+  font-size: 7rem;
+  margin-left: 2%;
+  height: 35%;
+}
+.subText{
+  font-size: 3rem;
+  color :#9CDBA6;
+  position: sticky;
+  vertical-align:middle;
+}
+.ppl{
+  margin-top: 20%;
+  margin-left: 15%;
+}
+@media (max-width: 768px) {
+  .ppl {
+    margin-top: 0  !important;
+    top: 10%  !important;
+    margin-bottom: 0  !important;
+    width: 80%  !important;
+  }
+  .subText{
+    font-size: 2rem;
+  }
+
+  #stickyDiv {
+    margin-top: 0;
+    top: 10% !important;
+  }
+}
